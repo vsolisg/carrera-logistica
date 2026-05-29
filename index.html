@@ -84,6 +84,7 @@ var MID_Y = 310;
 var keys = {};
 var p1, p2, obs1, obs2, spawnT, winner, gT, custAnim, running;
 var particles = [], banners = [];
+var lastT = 0;
 
 document.getElementById('startBtn').addEventListener('click', function() {
   document.getElementById('overlay').style.display = 'none';
